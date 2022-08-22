@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Inventory @ JanKrb</title>
+        <link rel="stylesheet" type="text/css" href="ui.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="ui.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <div class="container noselect">
+            <div class="head"></div>
+            <p class="inv-label">Rucksack</p>
+            <div class="inv-head-btn">
+                <div class="inv-head-single" id="close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="inv-head-single" id="refresh">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <p>1500000 $</p>
+            </div>
+            <div class="inv-cont" id="invcontainer">
+                
+            </div>
+        </div>
+        <div class="sub-container noselect">
+            <div class="sub-containerhead"></div>
+            <div class="sub-container-actions">
+                <div class="sub-container-actions-elem" id="throw">
+                    <i class="fas fa-trash-alt"></i>
+                </div>
+                <div class="sub-container-actions-elem" id="give">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <div class="sub-container-actions-elem" id="use">
+                    <i class="far fa-check-circle"></i>
+                </div>
+            </div>
+            <input id="amount" type="number" min="1" class="sub-cont-number nobr">
+        </div>
+    </body>
+</html>

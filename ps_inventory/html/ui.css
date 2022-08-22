@@ -1,0 +1,226 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    display: none;
+    background-color: white;
+    position: relative;
+    height: 540px;
+    width: 500px;
+    margin: auto;
+    top: 50px;
+    border-radius: 11px;
+}
+
+.head {
+    width: 100%;
+    height: 20px;
+    background-color: #2980b9;
+    border-radius: 10px 10px 0 0;
+}
+
+.inv-label {
+    position: relative;
+    left: 30px;
+    font-size: 32px;
+    bottom: 10px;
+    display: inline-block;
+    color: #34495e;
+}
+
+.inv-head-btn {
+    position: relative;
+    float: right;
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    top: 15px;
+}
+
+.inv-head-single {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.inv-head-single i {
+   position: relative; 
+   color: white;
+   line-height: 45px;
+   width: 100%;
+   height: 100%;
+   left: 15px;
+}
+
+.inv-head-btn p {
+    position: relative;
+    left: 15px;
+    color: green;
+    bottom: 2px;
+ }
+
+#refresh {
+    background-color: #2980b9;
+}
+
+#close {
+    background-color: #7f8c8d;
+}
+
+#close i {
+    position: relative;
+    left: 18px;
+}
+
+.inv-cont {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 375px;
+    top: 20px;
+    overflow: scroll;
+}
+
+.inv-cont-elem {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.116);
+}
+
+.inv-close {
+    position: relative;
+    left: 35px;
+    top: 2px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+.selected {
+    outline: 3px dashed #2980b9;
+    outline-offset: -3px;
+}
+
+.sub-container {
+    display: none;
+    position: relative;
+    width: 500px;
+    height: 75px;
+    background-color: white;
+    margin: auto;
+    top: 65px;
+    border-radius: 11px;
+}
+
+.sub-containerhead {
+   position: relative;
+   width: 100%;
+   height: 7px;
+   background-color: #2980b9; 
+   border-radius: 11px 11px 0 0;
+   display: inline-block;
+}
+
+.sub-container-actions {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 10px;
+    float: left;
+    display: inline-block;
+}
+
+.sub-container-actions-elem {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #2980b9;
+    display: inline-block;
+    bottom: 15px;
+    border-radius: 5px;
+    top: 4px;
+}
+
+.sub-container-actions-elem i {
+    position: relative;
+    color: white;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: auto;
+    font-size: 25px;
+}
+
+.sub-cont-number {
+    position: relative;
+    outline: 3px dashed #2980b9;
+    outline-offset: -3px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 30%;
+    height: 70%;
+    float: right;
+    display: inline-block;
+    bottom: 58px;
+    right: 15px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    white-space: pre-line;
+    overflow: hidden;
+    border: none;
+    font-size: large;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2980b9;
+    border-radius: 20px;
+    -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}
+
+.nobr { white-space: nowrap }
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
